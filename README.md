@@ -28,7 +28,7 @@ docker --version
 ```
 # ручная установка docker-compose 
 
-# проверяем версию https://github.com/docker/compose/releases и подставляем в команду установки
+### проверяем версию https://github.com/docker/compose/releases и подставляем в команду установки
 ```
 curl -L "https://github.com/docker/compose/releases/download/v2.10.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
